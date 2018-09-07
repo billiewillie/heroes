@@ -1,0 +1,868 @@
+@media (min-width: 768px) {
+	
+	.title {
+	    margin-bottom: 40px;
+	}
+	.orgs{
+		margin-bottom: 40px;
+	}
+	.main{
+		margin-bottom: 65px;
+	}
+	.menu{
+		width: 70%;
+	}
+	.star-2{
+	  width: 40px;
+	  height: 40px;
+	  bottom: -80px;
+	  right: 0;
+	  transform: rotate(45deg);
+	}
+	.star-2::after{
+	  -webkit-animation: animateStar 9s linear infinite;
+	  -moz-animation: animateStar 9s linear infinite;
+	  animation: animateStar 9s linear infinite;
+	}
+	.star-3{
+	  width: 35px;
+	  height: 35px;
+	  top: -20px;
+	  left: -50px;
+	}
+	.star-3::after{
+	  -webkit-animation: animateStarTwo 7s linear infinite;
+	  -moz-animation: animateStarTwo 7s linear infinite;
+	  animation: animateStarTwo 7s linear infinite;
+	}
+
+	.star-4{
+	  width: 55px;
+	  height: 55px;
+	  bottom: 0px;
+	  left: -200px;
+	  transform: rotate(15deg);
+	}
+	.star-4::after{
+	  -webkit-animation: animateStar 5s linear infinite;
+	  -moz-animation: animateStar 5s linear infinite;
+	  animation: animateStar 5s linear infinite;
+	}
+	.star-5{
+	  width: 30px;
+	  height: 30px;
+	  bottom: -100px;
+	  right: -50px;
+	  transform: rotate(35deg);
+	}
+	.star-5::after{
+		-webkit-animation: animateStarTwo 10s linear infinite;
+	  -moz-animation: animateStarTwo 10s linear infinite;
+	  animation: animateStarTwo 10s linear infinite;
+	}
+	.star-6{
+	  width: 30px;
+	  height: 30px;
+	  bottom: 0px;
+	  right: -200px;
+	  transform: rotate(10deg);
+	}
+	.star-6::after{
+		-webkit-animation: animateStarTwo 5s linear infinite;
+	  -moz-animation: animateStarTwo 5s linear infinite;
+	  animation: animateStarTwo 5s linear infinite;
+	}
+	.star-7{
+	  width: 30px;
+	  height: 30px;
+	  bottom: -200px;
+	  right: -300px;
+	  transform: rotate(25deg);
+	}
+	.star-7::after{
+		-webkit-animation: animateStarTwo 5s linear infinite;
+	  -moz-animation: animateStarTwo 5s linear infinite;
+	  animation: animateStarTwo 5s linear infinite;
+	}
+	.star__line{
+		position: absolute;
+		content: '';
+		display: block;
+		width: 1px;
+		background-color: #f4c31b;
+	}
+	.star__line--1{
+		bottom: -130px;
+		right: -110px;
+		height: 185px;
+		transform: rotate(56deg);
+	}
+	.star__line--2{
+		bottom: -200px;
+		right: -235px;
+		height: 230px;
+		transform: rotate(-25deg);
+	}
+	.menu__item{
+		font-size: 20px;
+		margin-right: 20px;
+	}
+	.soc{
+		width: 20%;
+	}
+	.rules__soc{
+		width: 100%;	
+	}
+	.soc__item{
+		width: 40%;
+	}
+	.rules__soc .soc__item{
+		width: 48px;	
+		height: 48px;	
+		max-width: 48px;
+	}
+	.soc__item:last-of-type{
+		margin-left: 10px;
+	}
+	.rules__soc .soc__item:last-of-type{
+		margin-left: 0px;	
+	}
+	.btn__item--link{
+		padding: 15px 30px;
+		font-size: 16px;
+	}
+	.title{
+	  font-size: 45px;
+	}
+	.orgs__title{
+		font-size: 23px;
+		margin-bottom: 30px;
+	}
+	.orgs:last-of-type .orgs__title{
+		margin-bottom: 40px;
+	}
+	.org__item{
+		min-height: 36px;
+		padding-left: 70px;
+		font-size: 8px;
+	}
+	.org__item::before{
+	  height: 60px;
+	}
+	.org__item:first-of-type{
+	  margin-right: 30px;
+	}
+	.org__item.org--cytomed{
+		width: 200px;
+	}
+	.org__item--link{
+		min-height: 40px;
+		padding-left: 45px;
+		font-size: 8px;
+	}
+	span.semja{
+	  font-size: 28px;
+	}
+	.org--minobr{
+	  font-size: 14px;
+	  min-height: auto;
+	  padding-left: 60px;
+	}
+	.org--rospotreb{
+	  font-size: 14px;
+	  min-height: auto;
+	  padding-left: 60px;
+	}
+
+	.date--item{
+		margin-bottom: 15px;
+	}
+	.reg{
+	  width: 680px;
+	}
+	.form__title{
+	  font-size: 30px;
+	}
+	.footer__logo{
+	  max-width: 150px;
+	  margin-bottom: 20px;
+	}
+	.copright__text{
+	  font-size: 14px;
+	}
+	select {
+    padding: 6px;
+	}
+
+	.rules__item{
+	  padding: 0 60px;
+	  position: relative;
+	  margin-bottom: 50px;
+	}
+	.rules__number{
+	  top: -7px;
+	  left: 0px;
+	  font-size: 70px;
+	}
+
+	.prises__inner{
+	  display: -webkit-flex;
+	  display: -moz-flex;
+	  display: -ms-flex;
+	  display: -o-flex;
+	  display: flex;
+	  justify-content: space-between;
+	  margin-bottom: 65px;
+	}
+	.prise__block{
+	  padding: 20px;
+	  border-radius: 10px;
+	  width: 30%;
+	}
+	.prise__block--nominee{
+	  font-size: 14px;
+	  font-weight: 900;
+	  margin-bottom: 20px;
+	}
+	.prise__block--title{
+	  font-weight: 900;
+	  font-size: 16px;
+	  margin-bottom: 20px;
+	}
+	.prise__block--text{
+	  font-size: 14px;
+	  margin-bottom: 20px;
+	}
+	.prises__title{
+		font-size: 40px;
+	}
+	.subtitle{
+	  margin-bottom: 65px;
+	  font-size: 30px;
+	}
+	.prises__list{
+		margin-bottom: 65px;
+		justify-content: space-between;
+	}
+		
+	.prises__list--item{
+		width: 100px;
+		height: 100px;
+		border: 4px dashed #ff7059;
+	}
+
+	.diploma{
+	  padding-left: 110px;
+	}
+	.diploma::before{
+	  height: 100px;
+	}
+	.footer__notice{
+		font-size: 24px;
+	}
+
+}
+
+@media (min-width: 992px) {
+	
+	.header{
+		padding: 60px 0;
+	}
+	.header__logo{
+		width: 60px;
+	}
+	.header__top{
+		margin-bottom: 0;
+	}
+	.menu{
+		width: 65%;
+	}
+	.soc__item{
+		max-width: 30px;
+	}
+	.menu__item{
+		font-size: 16px;
+	}
+	.btn__list{
+		justify-content: flex-end;
+	}
+	.btn__item:last-of-type{
+		margin-left: 20px;
+	}
+	.btn__item--link{
+		font-size: 13px;
+	}
+	.title__pic {
+	    text-align: left;
+	    margin-bottom: 35px;
+	    width: 360px;
+	}
+	.main__content{
+		position: relative;
+	}
+	.main__content::after{
+		position: absolute;
+		content: '';
+		display: block;
+		bottom: 0;
+		right: -380px;
+		width: 400px;
+		height: 385px;
+		background-image: url(../img/heroes.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	.title{
+	  font-size: 37px;
+	}
+
+
+	.rules{
+	  padding: 950px 0 20px;
+	  background-color: inherit;
+	  margin-bottom: 200px;
+	  margin-top: -100px;
+	}
+	.rules__container{
+		position: relative;
+	}
+	.rules__container::before{
+		display: block;
+		content: '';
+		position: absolute;
+		bottom: -200px;
+		left: -350px;
+		width: 1700px;
+		height: 2300px;
+		background-image: url(../img/rules_bg.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.rules__title{
+	  margin-bottom: 80px;
+	}
+	.rules__item{
+	  padding: 0 35px 0 100px;
+	  margin-bottom: 130px;
+	}
+	.rules__item:nth-of-type(5),
+	.rules__item:nth-of-type(6){
+		margin-bottom: 60px;
+	}
+	.rules__number{
+	  top: -10px;
+	  left: 15px;
+	  font-size: 100px;
+	}
+	.rules__text{
+	  font-weight: 700;
+	  font-size: 19px;
+	  margin-bottom: 30px;
+	}
+	.rules__btn{
+	  background-color: #fff;
+	  display: inline-block;
+	  border-radius: 50px;
+	  padding: 15px 30px;
+	  color: #775c44;
+	  font-weight: 600;
+	  font-size: 17px;
+	}
+	.btn__outter{
+		position: relative;
+		z-index: 2;
+	}
+	.btn__outter::before{
+		position: absolute;
+		content: '';
+		display: block;
+		top: 0;
+		bottom: 0;
+		left: -380px;
+		margin: auto;
+		width: 463px;
+		height: 370px;
+		background-image: url(../img/flying_boy.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
+	.letter__title{
+		font-size: 17px;
+	}
+	.letter__item a{
+		font-size: 13px;
+	}
+
+	.reg{
+		margin-bottom: 90px;
+		width: 100%;
+	}
+	.footer{
+	  padding: 150px 0 30px;
+	}
+
+	.form__title{
+	  font-size: 40px;
+	}
+	.indicates-required{
+	  font-size: 19px;
+	  margin-bottom: 60px;
+	}
+	.footer__logo{
+	  max-width: 190px;
+	  margin-bottom: 0px;
+	  border-right: 2px solid #fff;
+	  padding-right: 10px;
+	  vertical-align: middle;
+	}
+	.copyright__adress{
+		display: inline-block;
+		vertical-align: middle;
+		padding-left: 8px;
+		line-height: 1.4;
+	}
+	.copyright__adress--text{
+		margin: 0;
+		font-size: 11px;
+	}
+	.copyright__right{
+		flex-direction: column-reverse;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
+	.copright__text {
+    font-size: 11px;
+    font-weight: 400;
+    text-align: right;
+    padding-bottom: 4px;
+	}
+	.prise__block{
+	  padding: 30px;
+	}
+	.prise__block--title{
+	  font-size: 18px;
+	}
+	.prises__list--item{
+		width: 150px;
+		height: 150px;
+	}
+
+	.diploma__title{
+	  font-size: 19px;
+	}
+	.diploma__text{
+	  font-size: 14px;
+	}
+	.diploma{
+	  padding-left: 170px;
+	}
+	.diploma::before{
+	  height: 150px;
+	}
+	.dance{
+	  background-color: inherit;
+	  position: relative;
+	}
+	.dance::before{
+		position: absolute;
+		content: '';
+		display: block;
+		top: 50px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: auto;
+		width: 2600px;
+		height: 1003px;
+		background-image: url(../img/video_bg.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
+	.dance__title{
+		font-size: 30px;
+	}
+	.dance__subtitle{
+		margin-bottom: 200px;
+	}
+
+	#mc_embed_signup .mc-field-group.input-group input {
+	    width: 30px;
+	    height: 30px;
+	    top: -5px;
+	}
+
+	#mc_embed_signup .mc-field-group.input-group ul {
+	    padding-left: 45px;
+	}
+	#mc_embed_signup .mc-field-group.input-group .checkmark {
+    height: 30px;
+    width: 30px;
+    top: -5px;
+	}
+
+	#mc_embed_signup .mc-field-group.input-group .checkmark:after {
+    left: 10px;
+    top: 3px;
+    width: 10px;
+    height: 20px;
+	}
+
+	#mc_embed_signup .mc-field-group.input-group ul li {
+    padding: 0;
+	}
+
+	#mc_embed_signup .mc-field-group.input-group label {
+    font-size: 19px;
+	}
+	#mc_embed_signup .mc-field-group.input-group{
+		min-height: auto;
+		margin-bottom: 20px;
+	}
+	.footer .prises__title{
+		margin-bottom: 60px;
+	}
+	.footer__notice{
+		font-size: 34px;
+		margin-bottom: 60px;
+	}
+
+	.cloud-3{
+	  background-image: url(../img/cloud-3.png);
+	  width: 416px;
+	  height: 371px;
+	  top: 350px;
+	  margin-left: -416px;
+	  -webkit-animation: animateCloud 50s linear 1s infinite;
+	  -moz-animation: animateCloud 50s linear 1s infinite;
+	  animation: animateCloud 50s linear 1s infinite;
+	}
+
+	.cloud-5{
+	  background-image: url(../img/cloud-5.png);
+	  width: 357px;
+	  height: 317px;
+	  top: 300px;
+	  margin-left: -357px;
+	  -webkit-animation: animateCloud 40s linear infinite;
+	  -moz-animation: animateCloud 40s linear infinite;
+	  animation: animateCloud 40s linear infinite;
+	}
+
+	.cloud-7{
+	  background-image: url(../img/cloud-7.png);
+	  width: 176px;
+	  height: 130px;
+	  top: 1400px;
+	  margin-left: -176px;
+	  -webkit-animation: animateCloud 85s linear 5s infinite;
+	  -moz-animation: animateCloud 85s linear 5s infinite;
+	  animation: animateCloud 85s linear 5s infinite;
+	}
+
+	.cloud-8{
+	  background-image: url(../img/cloud-8.png);
+	  width: 92px;
+	  height: 89px;
+	  top: 50px;
+	  margin-left: -92px;
+	  -webkit-animation: animateCloud 35s linear infinite;
+	  -moz-animation: animateCloud 35s linear infinite;
+	  animation: animateCloud 35s linear infinite;
+	}
+	.cloud-9{
+	  background-image: url(../img/cloud-9.png);
+	  width: 142px;
+	  height: 97px;
+	  top: 60px;
+	  margin-left: -142px;
+	  -webkit-animation: animateCloud 45s linear 5S infinite;
+	  -moz-animation: animateCloud 45s linear 5S infinite;
+	  animation: animateCloud 45s linear 5S infinite;
+	}
+	.cloud-10{
+	  background-image: url(../img/cloud-1.png);
+	  width: 100px;
+	  height: 100px;
+	  top: 45px;
+	  margin-left: -100px;
+	  -webkit-animation: animateCloud 65s linear 10S infinite;
+	  -moz-animation: animateCloud 65s linear 10S infinite;
+	  animation: animateCloud 65s linear 10S infinite;
+	}
+	.cloud-11{
+	  background-image: url(../img/cloud-2.png);
+	  width: 80px;
+	  height: 80px;
+	  top: 105px;
+	  margin-left: -80px;
+	  -webkit-animation: animateCloud 45s linear infinite;
+	  -moz-animation: animateCloud 45s linear infinite;
+	  animation: animateCloud 45s linear infinite;
+	}
+	.cloud-12{
+	  background-image: url(../img/cloud-3.png);
+	  width: 120px;
+	  height: 120px;
+	  top: 120px;
+	  margin-left: -120px;
+	  -webkit-animation: animateCloud 65s linear infinite;
+	  -moz-animation: animateCloud 65s linear infinite;
+	  animation: animateCloud 65s linear infinite;
+	}
+	.cloud-13{
+	  background-image: url(../img/cloud-4.png);
+	  width: 140px;
+	  height: 140px;
+	  top: 295px;
+	  margin-left: -140px;
+	  -webkit-animation: animateCloud 50S linear 5S infinite;
+	  -moz-animation: animateCloud 50S linear 5S infinite;
+	  animation: animateCloud 50S linear 5S infinite;
+	}
+	.cloud-14{
+	  background-image: url(../img/cloud-4.png);
+	  width: 70px;
+	  height: 70px;
+	  top: 245px;
+	  margin-left: -70px;
+	  -webkit-animation: animateCloud 40S linear infinite;
+	  -moz-animation: animateCloud 40S linear infinite;
+	  animation: animateCloud 40S linear infinite;
+	}
+	.cloud-15{
+	  background-image: url(../img/cloud-5.png);
+	  width: 357px;
+	  height: 317px;
+	  top: 645px;
+	  margin-left: -357px;
+	  -webkit-animation: animateCloud 30S linear 5S infinite;
+	  -moz-animation: animateCloud 30S linear 5S infinite;
+	  animation: animateCloud 30S linear 5S infinite;
+	  z-index: 1;
+	}
+	.cloud-16{
+	  background-image: url(../img/cloud-6.png);
+	  width: 286px;
+	  height: 294px;
+	  top: 1345px;
+	  margin-left: -286px;
+	  -webkit-animation: animateCloud 50S linear infinite;
+	  -moz-animation: animateCloud 50S linear infinite;
+	  animation: animateCloud 50S linear infinite;
+	  z-index: 1;
+	}
+	.cloud-17{
+	  background-image: url(../img/cloud-7.png);
+	  width: 286px;
+	  height: 294px;
+	  top: 1805px;
+	  margin-left: -286px;
+	  -webkit-animation: animateCloud 35S linear 15S infinite;
+	  -moz-animation: animateCloud 35S linear 15S infinite;
+	  animation: animateCloud 35S linear 15S infinite;
+	  z-index: 1;
+	}
+	.cloud-18{
+	  background-image: url(../img/cloud-8.png);
+	  width: 92px;
+	  height: 89px;
+	  top: 0px;
+	  margin-left: -92px;
+	  -webkit-animation: animateCloud 35S linear infinite;
+	  -moz-animation: animateCloud 35S linear infinite;
+	  animation: animateCloud 35S linear infinite;
+	  z-index: 1;
+	}
+
+	.video__wrap::before{
+		position: absolute;
+		content: '';
+		display: block;
+		bottom: -3px;
+		left: -70px;
+		width: 140px;
+		height: 350px;
+		background-image: url(../img/hero-girl.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		z-index: 2;
+	}
+	.video__wrap::after{
+		position: absolute;
+		content: '';
+		display: block;
+		bottom: -3px;
+		right: -110px;
+		width: 220px;
+		height: 350px;
+		background-image: url(../img/hero-boy.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		z-index: 2;
+	}
+	.copyright__left{
+		text-align: left;
+	}
+	.hidden-lg-up{
+		display: none;
+	}
+	.star-8{
+	  width: 120px;
+	  height: 120px;
+	  bottom: -50px;
+	  left: -140px;
+	  transform: rotate(20deg);
+	}
+	.star-9{
+	  width: 60px;
+	  height: 60px;
+	  top: -30px;
+	  right: -30px;
+	  transform: rotate(45deg);
+	}
+	.star-9::after{
+	  -webkit-animation: animateStar 9s linear infinite;
+	  -moz-animation: animateStar 9s linear infinite;
+	  animation: animateStar 9s linear infinite;
+	}
+	.bird{
+		position: absolute;
+		display: block;
+		width: 59px;
+		height: 87px;
+		top: -84px;
+		right: 10px;
+		background-image: url(../img/bird.png);
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
+
+	.rocket__gift{
+		position: absolute;
+		left: -200px;
+		top: 50px;
+		width: 137px;
+		height: 374px;
+		background-image: url(../img/rocket_gift.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		animation-iteration-count: 1;
+	}
+	
+}
+
+@media (min-width: 1200px){
+
+	.menu__item{
+		margin-right: 30px;
+	}
+	.title{
+	  font-size: 45px;
+	}
+	.rules__item{
+	  padding: 0 100px;
+	}
+	.rules {
+	    padding: 850px 0 20px;
+	}
+	.rules__container::before{
+		height: 2150px;
+		left: -250px;
+		bottom: -180px;
+		width: 1600px;
+	}
+
+	.prises__list--item{
+		width: 190px;
+		height: 190px;
+	}
+	.dance__title{
+		font-size: 40px;
+	}
+	.main__content::after {
+    top: inherit;
+    bottom: 0;
+    right: -466px;
+    width: 500px;
+    height: 450px;
+    background-position: 100% 100%;
+	}
+
+	.box{
+		position: absolute;
+		display: block;
+		top: -900px;
+		right: 100px;
+		-webkit-animation: animateBaloon 5s linear infinite;
+	  -moz-animation: animateBaloon 5s linear infinite;
+	  animation: animateBaloon 5s linear infinite;
+	}
+	.box__top{
+		width: 260px;
+		height: 420px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		background-image: url(../img/baloons.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
+	.box__bottom{
+		width: 260px;
+		height: 240px;
+		position: absolute;
+		top: 375px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		background-image: url(../img/box.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		-webkit-animation: animateSwing 2s linear infinite;
+	  -moz-animation: animateSwing 2s linear infinite;
+	  animation: animateSwing 2s linear infinite;
+	}
+
+}
+
+@media (min-width: 1800px){
+	.moon{
+		position: absolute;
+		content: '';
+		display: block;
+		top: -80px;
+		left: -80px;
+		width: 344px;
+		height: 344px;
+		background-image: url(../img/moon.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		-webkit-animation: spin 80s infinite linear;
+		-moz-animation: spin 80s infinite linear;
+	}
+}
